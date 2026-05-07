@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1D4ED8;
+  --color-soft-blue: #EAF2FF;
+  --color-text-primary: #172B4D;
+  --color-text-secondary: #5E6C84;
+  --color-risk-high: #FF5A5F;
+  --color-risk-orange: #FF9F43;
+  --color-risk-yellow: #FFC93C;
+  --color-risk-green: #4CD964;
+  --color-bg-dashboard: #F7F8FA;
+}
+
+body {
+  background-color: var(--color-bg-dashboard);
+  color: var(--color-text-primary);
+  font-family: 'Inter', 'SF Pro Display', sans-serif;
+}
+
+.card-shadow {
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.04);
+}
